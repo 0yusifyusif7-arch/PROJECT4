@@ -23,14 +23,6 @@ body {
 }
 
 .menu-toggle {
-    .bar {
-  width: 26px;
-  height: 3px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: block;
-  transition: 0.3s;
-    }
   background: none;
   border: none;
   cursor: pointer;
@@ -42,6 +34,14 @@ body {
   width: 100%;
   height: 100%;
   padding: 0;
+}
+
+.menu-toggle .bar {
+  width: 28px;
+  height: 3px;
+  background-color: #E0E1DD;
+  border-radius: 3px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .menu-toggle[aria-expanded="true"] .bar:nth-child(1) {
@@ -89,6 +89,33 @@ body {
 .nav-menu a:hover {
   background-color: #0077B6;
   color: #E0E1DD;
+}
+
+.top-links {
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgba(27, 38, 59, 0.95);
+  padding: 0.75rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.30);
+  z-index: 9;
+}
+
+.top-links a {
+  color: #E0E1DD;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 0.25rem 0;
+  transition: color 0.3s;
+}
+
+.top-links a:hover {
+  color: #0077B6;
+  text-decoration: underline;
 }
 
 main {
@@ -306,6 +333,30 @@ footer {
   .project-content {
     padding: 1.25rem;
   }
+}
+
+.links-toggle {
+  color: #E0E1DD;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.links-content {
+  margin-top: 0.5rem;
+}
+
+.links-content a {
+  color: #E0E1DD;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.links-content a:hover {
+  text-decoration: underline;
 }
 canvas {
   background-color: #0D1B2A;
