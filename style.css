@@ -307,3 +307,10 @@ footer {
     padding: 1.25rem;
   }
 }
+canvas {
+  background-color: #0D1B2A;
+  border: 5px solid #FFB703; /* brighter border */
+  border-radius: 12px;
+  max-width: 100%;
+  box-shadow: 0 0 15px #0077B6; /* glow effect */
+}
