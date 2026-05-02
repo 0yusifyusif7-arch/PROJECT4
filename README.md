@@ -29,7 +29,7 @@ https://github.com/0yusifyusif7-arch/PROJECT4
 This website uses a custom dark-theme design created by me, focusing on a clean layout, card-based structure, and consistent color palette.
 
 ## 🤖 AI Usage
-AI tools such as VS Code AI and ChatGPT were used during development for layout design, debugging, and code generation.
+ VS Code AI was used during development for layout design, debugging, and code generation.
 
 The full AI interaction is available here:
 (AIchat.md)
